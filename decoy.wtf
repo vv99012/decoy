@@ -1,2 +1,2 @@
-script_key = getgenv().Decoy.Preload.Key
+script_key = getgenv().Decoy['Key'][1]
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c7fd93a704da14205cf20e5fc23f00f9.lua"))()
